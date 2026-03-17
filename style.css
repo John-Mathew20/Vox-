@@ -1,9 +1,10 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: Roboto Mono;
 }
 body {
-  background-color: purple;
+  /* background-color: purple; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,12 +16,12 @@ body {
 }
 
 .header {
-  background-color: black;
+  background-color: #dcc0a6;
   width: 100vw;
-  height: 7.5vh;
+  height: 8.5vh;
 }
 
-.container {
+/* .container {
   width: 100vw;
   height: 100vh;
   background-color: aqua;
@@ -46,7 +47,7 @@ body {
   width: 100vw;
   height: 5vh;
   background-color: darkgreen;
-}
+} */
 
 .header {
   display: flex;
@@ -55,10 +56,28 @@ body {
 }
 
 .img {
-  width: 5.2vw;
-  height: 7vh;
-  border-radius: 25%;
+  width: 6.25rem;
+  height: 5.29rem;
   position: absolute;
   top: 0;
   left: 0;
+  border-radius: 15%;
+}
+
+.img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0.75rem 0.75rem 0.75rem #9b8c80;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 700;
+  color: #493e37;
+  position: absolute;
+  top: 1rem;
+  left: 7.82rem;
 }
