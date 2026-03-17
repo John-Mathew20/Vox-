@@ -1,5 +1,60 @@
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo img {
+  width: 8em;
+  height: 8em;
+  border-radius: 25%;
+} */
 * {
   padding: 0;
   margin: 0;
-  font-family: Roboto mono;
+}
+body {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: black;
+  width: 100vw;
+  height: 7.5vh;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+}
+
+.left {
+  width: 25vw;
+  height: 100vh;
+  background-color: brown;
+}
+
+.center {
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+
+.footer {
+  width: 100vw;
+  height: 5vh;
+  background-color: darkgreen;
 }
