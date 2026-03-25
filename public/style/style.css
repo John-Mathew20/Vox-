@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto Mono;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+  width: 25%;
+  height: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  width: 50%;
+  height: 100%;
+  background-color: wheat;
+}
+
+.profile {
+  width: 25%;
+  height: 100%;
+  background-color: blue;
+}
+
+.img {
+  width: 50%;
+  height: 100%;
+}
+
+.title {
+  /* padding: 0 10rem 10rem 0; */
+}
